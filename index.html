@@ -123,43 +123,54 @@
       </div> -->
 
       <div>
-        <div>
+        <div class="m-4 md:m-1">
           <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative w-full">
+            <div
+              id="slide1"
+              class="carousel-item justify-around relative w-full"
+            >
               <div class="absolute inset-0 bg-black opacity-50"></div>
-              <div class="justify-center">
-                <h2
-                class="text-white absolute mb-4 text-5xl font-extrabold items-center"
+              <h2
+                class="text-center text-white absolute md:text-5xl text-2xl font-bold mb-4 top:4 md:top-24"
               >
-                Exotic tastes at your <br />
-                doorstep
+              Exotic tastes at  your <br>doorstep
               </h2>
-              </div>
-              <p
-                class="absolute text-white top-1/2 left-1/2 -translate-x-[80px] -translate-b-[80px]"
-              >
-                We supply highly quality organic products
+              <p class="absolute text-white top-16 md:top-60">
+                Quality Organic Product Provider
               </p>
               <button
-                class="absolute bg-[#F85559] p-6 rounded-lg text-white top-1/2 left-1/2 -translate-x-[10%] translate-y-[20px]"
+                class="bg-[#F85559] absolute p-2 md:p-6 rounded-lg text-white top-24 md:top-80"
               >
                 Shop Now
               </button>
               <img src="images/banner1.png" class="w-full" />
+
               <div
                 class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
               >
-                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❮</a>
                 <a href="#slide2" class="btn btn-circle">❯</a>
               </div>
             </div>
-            <div id="slide2" class="carousel-item relative w-full">
+            <!-- slider 2 -->
+            <div
+              id="slide2"
+              class="carousel-item relative w-full justify-around"
+            >
               <div class="absolute inset-0 bg-black opacity-50"></div>
               <h2
-                class="text-center text-white absolute text-2xl font-bold mb-4"
+                class="text-center text-white absolute md:text-5xl text-2xl font-bold mb-4 top:4 md:top-24"
               >
-                Heading Above the Image 2
+              Discover Exotic Flavors <br> Easily
               </h2>
+              <p class="absolute text-white top-16 md:top-60">
+                Quality Organic Product Provider
+              </p>
+              <button
+                class="bg-[#F85559] absolute p-2 md:p-6 rounded-lg text-white top-24 md:top-80"
+              >
+                Shop Now
+              </button>
               <img src="images/banner2.png" class="w-full" />
               <div
                 class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
@@ -168,13 +179,25 @@
                 <a href="#slide3" class="btn btn-circle">❯</a>
               </div>
             </div>
-            <div id="slide3" class="carousel-item relative w-full">
+            <!-- slider 3 -->
+            <div
+              id="slide3"
+              class="justify-around carousel-item relative w-full"
+            >
               <div class="absolute inset-0 bg-black opacity-50"></div>
               <h2
-                class="text-center text-white absolute text-2xl font-bold mb-4"
+                class="text-center text-white absolute md:text-5xl text-2xl font-bold mb-4 top:4 md:top-24"
               >
-                Heading Above the Image 3
+              Convenient Exotic Taste <br>Delivery.
               </h2>
+              <p class="absolute text-white top-16 md:top-60">
+                Quality Organic Product Provider
+              </p>
+              <button
+                class="bg-[#F85559] absolute p-2 rounded-lg text-white top-24 md:top-80"
+              >
+                Shop Now
+              </button>
               <img src="images/banner3.png" class="w-full" />
               <div
                 class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
@@ -183,13 +206,23 @@
                 <a href="#slide4" class="btn btn-circle">❯</a>
               </div>
             </div>
-            <div id="slide4" class="carousel-item relative w-full">
+            <div id="slide4" class="justify-around carousel-item relative w-full">
               <div class="absolute inset-0 bg-black opacity-50"></div>
               <h2
-                class="text-center text-white absolute text-2xl font-bold mb-4"
+                class="text-center text-white absolute md:text-5xl text-2xl font-bold mb-4 top:4 md:top-24"
               >
-                Heading Above the Image 4
+              Exotic tastes, conveniently <br> delivered home
               </h2>
+              <p
+              class="absolute text-white top-16 md:top-60"
+            >
+            Quality Organic Product Provider
+            </p>
+            <button
+              class="bg-[#F85559] absolute p-2 rounded-lg text-white top-24 md:top-80"
+            >
+              Shop Now
+            </button>
               <img src="images/banner4.png" class="w-full" />
               <div
                 class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
@@ -200,7 +233,9 @@
             </div>
           </div>
           <!-- banner position part -->
-          <div class="card bg-base-100 shadow-xl flex mx-24 -mt-32 hidden lg:block">
+          <div
+            class="card bg-base-100 shadow-xl flex mx-24 -mt-32 hidden lg:block"
+          >
             <div class="grid grid-cols-5">
               <div>
                 <figure class="px-10 pt-10">
