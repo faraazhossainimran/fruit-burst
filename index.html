@@ -83,45 +83,7 @@
           </div>
         </div>
       </div>
-      <!-- nav ends -->
-      <!-- banner start -->
-      <!-- <div>
-        <div class="carousel w-full">
-          <div id="slide1" class="carousel-item relative w-full">
-            <h2 class="text-center text-white absolute text-2xl font-bold mb-4">Heading Above the Image</h2>
-            <img src="images/banner1.png" class="w-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide1" class="btn btn-circle">❮</a> 
-              <a href="#slide2" class="btn btn-circle">❯</a>
-            </div>
-          </div> 
-          <div id="slide2" class="carousel-item relative w-full">
-            <h2 class="text-center text-white absolute text-2xl font-bold mb-4">Heading Above the Image</h2>
-            <img src="images/banner2.png" class="w-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide1" class="btn btn-circle">❮</a> 
-              <a href="#slide3" class="btn btn-circle">❯</a>
-            </div>
-          </div> 
-          <div id="slide3" class="carousel-item relative w-full">
-            <h2 class="text-center text-white absolute text-2xl font-bold mb-4">Heading Above the Image</h2>
-            <img src="images/banner1.png" class="w-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide2" class="btn btn-circle">❮</a> 
-              <a href="#slide4" class="btn btn-circle">❯</a>
-            </div>
-          </div> 
-          <div id="slide4" class="carousel-item relative w-full">
-            <h2 class="text-center text-white absolute text-2xl font-bold mb-4">Heading Above the Image</h2>
-            <img src="images/banner1.png" class="w-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide1" class="btn btn-circle">❮</a> 
-              <a href="#slide3" class="btn btn-circle">❯</a>
-            </div>
-          </div> 
-        </div>
-      </div> -->
-
+    <!-- nav ends -->
       <div>
         <div class="m-4 md:m-1">
           <div class="carousel w-full">
@@ -133,7 +95,7 @@
               <h2
                 class="text-center text-white absolute md:text-5xl text-2xl font-bold mb-4 top:4 md:top-24"
               >
-              Exotic tastes at  your <br>doorstep
+                Exotic tastes at your <br />doorstep
               </h2>
               <p class="absolute text-white top-16 md:top-60">
                 Quality Organic Product Provider
@@ -161,7 +123,8 @@
               <h2
                 class="text-center text-white absolute md:text-5xl text-2xl font-bold mb-4 top:4 md:top-24"
               >
-              Discover Exotic Flavors <br> Easily
+                Discover Exotic Flavors <br />
+                Easily
               </h2>
               <p class="absolute text-white top-16 md:top-60">
                 Quality Organic Product Provider
@@ -188,13 +151,13 @@
               <h2
                 class="text-center text-white absolute md:text-5xl text-2xl font-bold mb-4 top:4 md:top-24"
               >
-              Convenient Exotic Taste <br>Delivery.
+                Convenient Exotic Taste <br />Delivery.
               </h2>
               <p class="absolute text-white top-16 md:top-60">
                 Quality Organic Product Provider
               </p>
               <button
-                class="bg-[#F85559] absolute p-2 rounded-lg text-white top-24 md:top-80"
+                class="bg-[#F85559] absolute p-2 md:p-6 rounded-lg text-white top-24 md:top-80"
               >
                 Shop Now
               </button>
@@ -206,23 +169,25 @@
                 <a href="#slide4" class="btn btn-circle">❯</a>
               </div>
             </div>
-            <div id="slide4" class="justify-around carousel-item relative w-full">
+            <div
+              id="slide4"
+              class="justify-around carousel-item relative w-full"
+            >
               <div class="absolute inset-0 bg-black opacity-50"></div>
               <h2
                 class="text-center text-white absolute md:text-5xl text-2xl font-bold mb-4 top:4 md:top-24"
               >
-              Exotic tastes, conveniently <br> delivered home
+                Exotic tastes, conveniently <br />
+                delivered home
               </h2>
-              <p
-              class="absolute text-white top-16 md:top-60"
-            >
-            Quality Organic Product Provider
-            </p>
-            <button
-              class="bg-[#F85559] absolute p-2 rounded-lg text-white top-24 md:top-80"
-            >
-              Shop Now
-            </button>
+              <p class="absolute text-white top-16 md:top-60">
+                Quality Organic Product Provider
+              </p>
+              <button
+                class="bg-[#F85559] absolute p-2 md:p-6 rounded-lg text-white top-24 md:top-80"
+              >
+                Shop Now
+              </button>
               <img src="images/banner4.png" class="w-full" />
               <div
                 class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
@@ -426,7 +391,103 @@
                     />
                   </div>
                   <div class="card-actions justify-center">
-                    <button class="py-2 text-[#F85559]">Details</button>
+                    <!-- modal start -->
+                    <!-- Open the modal using ID.showModal() method -->
+                    <button
+                      class="py-2 text-[#F85559]"
+                      onclick="my_modal_1.showModal()"
+                    >
+                      Details
+                    </button>
+                    <dialog id="my_modal_1" class="modal">
+                      <form method="dialog" class="modal-box">
+                       <div class="w-[100%]">
+                        <img class="mx-auto" src="images/fruit6.png" alt="apples" />
+                       </div>
+                       <div class="w-[100%]">
+                        <p class="py-4 w-80 mx-auto">
+                          Professional employees are there for you to pick the
+                          most amazing and fresh fruits.
+                        </p>
+                       </div>
+                       <div class="w-[100%]">
+                        <div
+                        class="p-2 rating rating-lg rating-half mx-auto"
+                      >
+                        <input
+                          type="check"
+                          name="rating-1"
+                          class="rating-hidden"
+                        />
+                        <input
+                          type="check"
+                          name="rating-2"
+                          class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                        />
+                        <input
+                          type="check"
+                          name="rating-3"
+                          class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                        />
+                        <input
+                          type="check"
+                          name="rating-4"
+                          class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                          checked
+                        />
+                        <input
+                          type="check"
+                          name="rating-5"
+                          class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                        />
+                        <input
+                          type="check"
+                          name="rating-6"
+                          class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                        />
+                        <input
+                          type="check"
+                          name="rating-7"
+                          class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                        />
+                        <input
+                          type="check"
+                          name="rating-8"
+                          class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                        />
+                        <input
+                          type="check"
+                          name="rating-9"
+                          class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                        />
+                        <input
+                          type="check"
+                          name="rating-10"
+                          class="bg-[#F85559] mask mask-star-2 mask-half-1"
+                        />
+                        <input
+                          type="check"
+                          name="rating-11"
+                          class="bg-[#F85559] mask mask-star-2 mask-half-2"
+                        />
+                      </div>
+                       </div>
+                        <div class="flex">
+                          <!-- if there is a button in form, it will close the modal -->
+                          <button
+                            class="border-[#F85559] border p-2 rounded-lg mr-2"
+                          >
+                            Close
+                          </button>
+                          <button
+                          class="bg-[#F85559] p-2 rounded-lg text-white ml-2"
+                        >
+                          Shop Now
+                        </button>
+                        </div>
+                      </form>
+                    </dialog>
+                    <!-- modal ends -->
                   </div>
                 </div>
               </div>
@@ -738,6 +799,25 @@
         </div>
         <!-- Team section ends -->
       </div>
+      <!-- choose section starts -->
+      <div>
+        <div>
+          <!-- text -->
+          <div class="text-center"> 
+            <h1 class="text-5xl py-4">Why Choose us</h1>
+            <p class="w-[600px] mx-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+          <!-- text ends -->
+          <div class="grid grid-cols-1 md:grid-cols-3">
+            <div>
+              text
+            </div>
+            <div>img</div>
+            <div>text</div>
+          </div>
+        </div>
+      </div>
+      <!-- choose section ends -->
     </main>
     <footer
       class="footer footer-center p-10 bg-slate-950 text-primary-content mt-24"
