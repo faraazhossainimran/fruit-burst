@@ -401,7 +401,7 @@
                     </button>
                     <dialog id="my_modal_1" class="modal">
                       <form method="dialog" class="modal-box">
-                       <div class="w-[100%]">
+                       <div>
                         <img class="mx-auto" src="images/fruit6.png" alt="apples" />
                        </div>
                        <div class="w-[100%]">
@@ -817,7 +817,7 @@
           <!-- Your text goes here -->
           <div class="grid grid-cols-1 md:grid-row-3">
             <!-- text 1 -->
-            <div class="md:flex gap-4 w-[100%]">
+            <div class="md:flex gap-4 w-[100%] flex-row-reverse">
               <div class="relative mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                   <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
@@ -832,7 +832,7 @@
               </div>
             </div>
             <!-- text 2 -->
-            <div class="md:flex gap-4 w-[100%]">
+            <div class="md:flex gap-4 w-[100%] flex-row-reverse">
               <div class="relative mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                   <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
@@ -847,7 +847,7 @@
               </div>
             </div>
             <!-- text 3 -->
-            <div class="md:flex gap-4 w-[100%]">
+            <div class="md:flex gap-4 w-[100%] flex-row-reverse">
               <div class="relative mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                   <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
@@ -863,12 +863,12 @@
             </div>
           </div>
         </div>
-        <!-- Third Grid (Text) - Shown third on mobile order-3 flex-1 p-4 grid grid-cols-1 md:grid-row-3 md:flex-row-reverse-->
+        <!-- Third Grid (Text) - Shown third on mobile grid grid-cols-1 md:grid-row-3-->
         <div class="order-3 flex-1 p-4 md:flex md:justify-center">
           <!-- Your text goes here -->
-          <div class="grid grid-cols-1 md:grid-row-3 md:flex-row-reverse">
+          <div class="grid grid-cols-1 md:grid-row-3">
             <!-- text 1 -->
-            <div class="md:flex gap-4 w-[100%]">
+            <div class="md:flex gap-4 w-[100%] flex-row-reverse flex-row-reverse">
               <div class="relative mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                   <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
@@ -876,14 +876,14 @@
                 <img class="absolute top-4 left-5" src="images/group 1.png">
               </div>
               
-              <div>
-                <h4 class="text-2xl font-extrabold pb-2">Fresh is Best</h4>
-                <div class="border-b-2 w-24 border-slate-800"></div>
-                <p class="py-2 w-80  text-opacity-60 text-[#121212]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="relative">
+                <h4 class="text-2xl font-extrabold pb-2 md:absolute md:top-0 md:right-0">Fresh is Best</h4>
+                <div class="border-b-2 w-24 border-slate-800 md:absolute md:top-10 md:right-0"></div>
+                <p class="py-2 w-80  text-opacity-60 text-[#121212] md:mt-10 md:text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               </div>
             </div>
             <!-- text 2 -->
-            <div class="md:flex gap-4 w-[100%]">
+            <div class="md:flex gap-4 w-[100%] flex-row-reverse">
               <div class="relative mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                   <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
@@ -891,14 +891,14 @@
                 <img class="absolute top-4 left-5" src="images/group 1.png">
               </div>
               
-              <div>
-                <h4 class="text-2xl font-extrabold pb-2">Gift Certificates</h4>
-                <div class="border-b-2 w-24 border-slate-800"></div>
-                <p class="py-2 w-80  text-opacity-60 text-[#121212]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="relative">
+                <h4 class="text-2xl font-extrabold pb-2 md:absolute md:top-0 md:right-0">Gift Certificates</h4>
+                <div class="border-b-2 w-24 border-slate-800 md:absolute md:top-10 md:right-0"></div>
+                <p class="py-2 w-80  text-opacity-60 text-[#121212] md:mt-10 md:text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               </div>
             </div>
             <!-- text 3 -->
-            <div class="md:flex gap-4 w-[100%]">
+            <div class="md:flex gap-4 w-[100%] flex-row-reverse">
               <div class="relative mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                   <circle cx="30" cy="30" r="30" fill="#121212" fill-opacity="0.1"/>
@@ -906,10 +906,10 @@
                 <img class="absolute top-4 left-5" src="images/group 1.png">
               </div>
               
-              <div>
-                <h4 class="text-2xl font-extrabold pb-2">Integrated Supplier</h4>
-                <div class="border-b-2 w-24 border-slate-800"></div>
-                <p class="py-2 w-80  text-opacity-60 text-[#121212]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="relative">
+                <h4 class="text-2xl font-extrabold pb-2 md:absolute md:top-0 md:right-0">Integrated Supplier</h4>
+                <div class="border-b-2 w-24 border-slate-800 md:absolute md:top-10 md:right-0"></div>
+                <p class="py-2 w-80  text-opacity-60 text-[#121212] md:mt-10 md:text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               </div>
             </div>
           </div>
